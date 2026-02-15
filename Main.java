@@ -11,6 +11,12 @@ public class Main {
                 choice = scanner.nextInt();
                 switch (choice) {
                     // Search for Array
+                    case 0:
+                        System.out.println();
+                        System.out.println("----- Current Array -----");
+                        printArray(arr1);
+                        System.out.println();
+                        break;
                     case 1:
                         System.out.println();
                         try {
@@ -112,6 +118,7 @@ public class Main {
     // This function prints the options for manipulating the array
     public static void menu(){
         System.out.println("----- Array Menu -----");
+        System.out.println("0) Print Array");
         System.out.println("1) Search for Array");
         System.out.println("2) Update Array");
         System.out.println("3) Add Number to End");
