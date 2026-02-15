@@ -119,7 +119,7 @@ public class Main {
     public static void menu(){
         System.out.println("----- Array Menu -----");
         System.out.println("0) Print Array");
-        System.out.println("1) Search for Array");
+        System.out.println("1) Search in Array");
         System.out.println("2) Update Array");
         System.out.println("3) Add Number to End");
         System.out.println("4) Delete from Array");
